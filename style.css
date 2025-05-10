@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(105, 143, 28);
+    color: white;
+}
+
+button {
+    background-color: deepskyblue;
+    border: 1px solid deepskyblue;
+    color: white;
+    height: 32px;
+    border-radius: 4px;
+}
+
+#afterStart {
+    display: none;
+}

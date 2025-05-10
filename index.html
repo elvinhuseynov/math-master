@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Math Master</h1>
+    <h2 id="gameOver"></h2>
+    <main>
+      <div id="beforeStart">
+        <div>
+          <h2 id="highScore">High score:</h2>
+          <h2 id="latestScore">Latest score:</h2>
+        </div>
+        <button id="submitStart">Start game</button>
+      </div>
+      <div id="afterStart">
+        <div>
+          <h2 id="level">Level:</h2>
+          <h2 id="score">Score:</h2>
+        </div>
+        <h2 id="remainingTime">Remaining time:</h2>
+        <h2 id="question">Question:</h2>
+        <input id="answerInput" type="text" />
+        <button id="submitAnswer">Submit Answer</button>
+      </div>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
